@@ -6,3 +6,11 @@
     color: white!important;
     background: purple!important;
 }
+
+.custom-btn {
+    color: black;
+    background: yellow;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+}
