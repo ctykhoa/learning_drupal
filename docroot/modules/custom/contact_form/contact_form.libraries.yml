@@ -1,0 +1,9 @@
+contactjs:
+  css:
+    theme:
+      css/contact_style.css: {}
+  js:
+    js/contact.js: {}
+  dependencies:
+    - core/jquery
+

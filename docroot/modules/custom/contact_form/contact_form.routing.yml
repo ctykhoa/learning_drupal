@@ -1,0 +1,23 @@
+contact_form.content:
+  path: '/contact-us'
+  defaults:
+    _controller: '\Drupal\contact_form\Controller\ContactFormController::content'
+    _title: 'Contact Us'
+  requirements:
+    _permission: 'access content'
+
+contact_form.getResult:
+  path: '/thank-you'
+  defaults:
+    _controller: '\Drupal\contact_form\Controller\ContactFormController::showResult'
+    _title: 'Thank you'
+  requirements:
+    _permission: 'access content'
+
+contact_form.handleData:
+  path: '/contact-us'
+  method: [POST]
+  defaults:
+    _controller: '\Drupal\contact_form\Controller\ContactFormController::handleUserData'
+  requirements:
+    _permission: 'access content'

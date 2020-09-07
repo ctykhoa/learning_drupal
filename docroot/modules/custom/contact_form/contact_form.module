@@ -1,0 +1,13 @@
+<?php
+
+
+function contact_form_theme($existing, $type, $theme, $path) {
+  return [
+    'user-info' => [
+        'variables' => [
+            'name' => '',
+            'email' => ''
+            ]
+    ],
+  ];
+}

@@ -1,0 +1,6 @@
+name: Contact Form Module
+description: Crate a page to get user contact.
+package: Custom
+type: module
+version: 1.0
+core: 8.x
