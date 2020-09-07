@@ -49,6 +49,6 @@ class ContactFormController
 
   public function handleUserData(Request $request)
   {
-    return new JsonResponse(['req' => 'Khoa']);
+    
   }
 }

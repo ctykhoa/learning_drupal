@@ -5,7 +5,7 @@ contact_form.content:
     _title: 'Contact Us'
   requirements:
     _permission: 'access content'
-
+    
 contact_form.getResult:
   path: '/thank-you'
   defaults:

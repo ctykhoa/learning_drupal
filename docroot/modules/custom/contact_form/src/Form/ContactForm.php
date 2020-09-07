@@ -44,17 +44,6 @@ class ContactForm extends FormBase {
       '#placeholder' => 'khoayen@example.com',
     ];
 
-    // Check.
-    $form['check_data'] = [
-      '#type' => 'markup',
-      '#attributes' => [
-        'class'=> ['form-button-field'],
-        'id' => 'check-data-button',
-      ],
-      // "#executes_submit_callback" => FALSE,
-      '#markup' => '<button>CHECK</button>',
-    ];
-
     // Submit.
     $form['submit'] = [
       '#type' => 'submit',
@@ -90,7 +79,6 @@ class ContactForm extends FormBase {
       'user_email' => $form_state->getValue('email'),
     ]);
 
-    // $this->messenger()->addStatus($this->t('Your email is @email', ['@email' => $form_state->getValue('email')]));
-  }
+   }
 
 }
