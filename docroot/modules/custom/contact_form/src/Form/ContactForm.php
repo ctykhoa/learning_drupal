@@ -52,6 +52,9 @@ class ContactForm extends FormBase {
       ],
       '#value' => 'Send us',
     ];
+
+    $form['#method'] = 'post';
+    
     return $form;
   }
 
